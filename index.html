@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BogeyCTOCTO</title>
+    <title>BogeyCTO</title>
+    <meta name="description" content="Nice to meet you Mini BogeyCTO.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="logo.JPG">
+   <link rel="shortcut icon" href="/logo.JPG" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <style>
     @font-face {
@@ -35,7 +37,8 @@
                 </div>
             </nav>
      
-            <div class="text-center md:py-72 py-32 px-3 justify-center flex items-center flex-col">
+            <div class="text-center md:py-72 py-32 px-3 justify-center flex items-center flex-col" data-aos="fade-up"
+            data-aos-duration="3000">
                 <h1 class="text-4xl md:text-7xl font-bold head text-black">BogeyCTO</h1>
                 <p class="text-2xl mt-2">波吉</p>
                 <p class="text-red-500 text-xl mt-2 text-red-700 head">BogeyCTO IS ON A JOURNEY TO FIND HIS FRIENDS</p>
@@ -52,7 +55,7 @@
        
       </div>
       <div>
-        <div class="bg-black text-white py-6">
+        <div class="bg-black text-white text-xl py-6">
             <p class="text-center head">CA</p>
             <p class="text-center texts">0x1E8da3CC9ff6d102Dabb22992390f42a07D8ed80</p>
           </div>
@@ -61,10 +64,10 @@
       <div class="bg-black text-white py-10 px-4">
         <div class="flex justify-center items-center space-x-4 py-4">
          <a href="https://t.me/BOGEYCHADTAKEOVER">
-        <i class="bi bi-telegram text-xl"></i> 
+        <i class="bi bi-telegram text-2xl"></i> 
     </a>
     <a href="https://x.com/BogeyCTO">
-        <i class="bi bi-twitter-x text-xl"></i> 
+        <i class="bi bi-twitter-x text-2xl"></i> 
     </a>
     <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x944069388998d0168f87e11a25217977d702e949?t=1718617778958">
        <img src="https://cdn.worldvectorlogo.com/logos/dextools.svg" class="w-6" alt="">
@@ -133,9 +136,9 @@
 
           </div>
           <div class="bg-black flex-col md:flex-row flex items-center p-4 rounded-lg">
-            <img src="/logo.JPG" alt="">
+            <img src="/logo.JPG" class="w-32 rounded-full" alt="">
             <div class="flex flex-col">
-            <h3 class="text-2xl font-bold head mb-2">Switch ETH for $BogeyCTO</h3>
+            <h3 class="text-2xl font-bold head mb-2"> Switch ETH for $BogeyCTO</h3>
             <p  class="texts">
               Exchange your ETH for $BogeyCTO. There are NO taxes, so you don’t need to worry about setting a
               specific slippage for your purchase, although slippage might be necessary during periods of
@@ -203,6 +206,9 @@
         <p class="text-white texts mt-2">©BogeyCTO</p>
       </footer>
       
-      
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
